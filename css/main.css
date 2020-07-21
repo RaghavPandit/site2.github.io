@@ -1,0 +1,44 @@
+@import 'utilities.css';
+
+:root{
+    --primary: #3dcfd3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #f2f2f2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: var(--dark);
+}
+
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2em;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .left a:hover{
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0;
+}
